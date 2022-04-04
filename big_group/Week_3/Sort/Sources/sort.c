@@ -274,8 +274,6 @@ int ReadedFile(FILE *fp,int num,int *temp){
 int SortTime(int *p,int num){ //num为数据的个数 
 	clock_t star,diff;
 	int number = num;
-	printf("%d,%d\n",num,number);
-	printf("%d\n",p[3]);
 	
 	clock_t star1 = clock();
     QuickSort_Recursion(p, 0, num-1);
